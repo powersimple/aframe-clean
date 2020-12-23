@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <link rel="shortcut icon" href="assets/images/icons/favicon.ico" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GNKBZZ25P8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GNKBZZ25P8');
+        
+        if (window.location.protocol == 'http:') {
+
+            console.log("you are accessing us via " +
+                "an insecure protocol (HTTP). " +
+                "Redirecting you to HTTPS.");
+
+            window.location.href =
+                window.location.href.replace(
+                    'http:', 'https:');
+        }
+        //  gtag('config', 'G-64Y5HTMWJ5');
+    </script>
+
+
+    <meta charset="utf-8">
+    <title>XR Collaboration</title>
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate, post-check=0, pre-check=0" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="description" content="TA Global Resource Guide to XR Collaborative platforms">
+    <meta name="keywords" content="">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="XR Collaboration" />
+    <meta property="og:description" content="A Global Resource Guide to XR Collaborative platforms" />
+    <meta property="og:url" content="https://xrcollaboration.com" />
+    <meta property="og:site_name" content="XR Collaboration" />
+    <meta property="article:modified_time" content="2020-06-05T16:51:37+00:00" />
+    <meta property="og:image" content="assets/images/social/XRC-Share1.jpg" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@webxrawards" />
+    <meta name="twitter:creator" content="@powersimple" />
+    <meta property="og:url" content="https://xrcollaboration.com.com" />
+    <meta property="og:title" content="XR Collaboration" />
+    <meta property="og:description" content="A Global Resource Guide to XR Collaborative platforms" />
+    <meta property="og:image" content="assets/images/social/XRC-Share1.jpg" />
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="assets/js/aframe-extras.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+    <script src="assets/js/aframe-physics-system.js"></script>
+    <script src="assets/js/aframe-look-controls.js"></script>
+
+    <script src="assets/js/aframe-svgfile-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-svg-extruder@1.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js">   
+    </script>
+    <script src="https://unpkg.com/super-hands@3.0.0/dist/super-hands.js"></script>
+    <script src="https://unpkg.com/aframe-physics-extras@0.1.2/dist/aframe-physics-extras.min.js"></script>
+    <script src="assets/js/aframe-teleport-controls.js"></script>
+    <script src="assets/js/aframe-troika-text.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="assets/js/jquery.js"></script>
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<link rel='stylesheet' id='drawer-css' href='assets/css/drawer.css' type='text/css' media='all' />
+<link rel='stylesheet' id='drawer-css' href='assets/css/jquery-ui.css' type='text/css' media='all' />
+<link rel='stylesheet' id='drawer-css' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+   
+
+
+</head>
+
+<body background="#000">
+    <!--
+<div id="nav">
+  <div id="menu"></div>
+  <div id="menuclose"></div>
+  
+   <div id="logo"></div>
+  <div class="inapppage"></div>
+   <div class="inapppage studio">Studio <span class="bredcrumb"> Dashboard</span></div>
+  <div id="profile">
+     
+<a href="   https://www.eventbrite.com/e/the-polys-2020-webxr-awards-tickets-127259782435" target="_blank" class="fa" title="RSVP"><span>RSVP</span></a>
+                <a href="https://twitter.com/webxrawards" target="_blank" class="fa fa-twitter" title="Follow us on Twitter"></a>
+                    <a href="https://www.instagram.com/webxrawards/"  target="_blank"class="fa fa-instagram" title="Follow us on Instagram"></a>
+                    <a href="https://www.facebook.com/groups/webxrawards"  target="_blank"class="fa fa-facebook"  title="Join our Facebook Group"></a>
+                    <a href="https://www.linkedin.com/groups/13932078/" target="_blank" class="fa fa-linkedin" title="Connect with us on LinkedIn" target="_blank"></a>
+
+                <a href="https://discord.gg/T5vRuM5cDS" class="fa discord"  target="_blank" title="You're invited to join our community discord"></a>
+                
+  </div>
+</div>
+
+<div class="nav2">     </div>
+
+https://www.youtube.com/channel/UCfT5mr_IDYFR92X2mU0cIAw
+-->
+
+
+
+
+
+    <a-scene gltf-model="dracoDecoderPath: assets/draco/;" grab-panels item-grab device-set nomination-link
+        device-orientation-permission-ui physics="iterations: 30;"
+        inspector="https://cdn.jsdelivr.net/gh/aframevr/aframe-inspector@master/dist/aframe-inspector.min.js"
+        loading-screen="backgroundColor: #12171a" renderer="colorManagement: true; foveationLevel: 2;"
+        background="color: #FAFAFA">
+        <a-entity tracked-controls="controller: 0; idPrefix: OpenVR"></a-entity>
+        <a-entity tracked-controls="controller: 1; idPrefix: OpenVR"></a-entity>
+        <a-assets timeout="80000"></a-assets>
+            <!-- Loads models -->
+          
+            <a-asset-item id="ring" response-type="arraybuffer" position="0 0 -5" src="assets/models/amphitheater.glb"></a-asset-item>
+            </a-asset-item>
+            <a-asset-item id="buttonmodel" response-type="arraybuffer" src="assets/models/button.glb"></a-asset-item>
+            <a-asset-item id="buttonupmodel" response-type="arraybuffer" src="assets/models/button-up.glb">
+            </a-asset-item>
+           
+
+
+            <img id="sky" src="assets/images/skybox/xrc-skybox.jpg">
+
+
+
+
+
+            <a-mixin id="obj" hoverable
+                grabbable="startButtons: trackpaddown, triggerdown, gripclose, gripdown, abuttondown, bbuttondown, xbuttondown, ybuttondown, thumbstickdown, mousedown; endButtons: trackpadup, triggerup, gripopen, gripup, abuttonup, bbuttonup, xbuttonup, ybuttonup, thumbstickup, mouseup"
+                class="grabbable" scale="1 1 1" rotation="0 0 0" shadow>
+                <!-- animation="property: object3D.position.y; to: 1.45; startEvents: standtrigger; dur: 5000"-->
+            </a-mixin>
+            <a-mixin id="button" static-body hoverable
+                clickable="startButtons: trackpaddown, triggerdown, gripclose, gripdown, thumbstickdown, mousedown; endButtons: trackpadup, triggerup, gripopen, gripup, thumbstickup, mouseup"
+                scale="1 1 1" shadow></a-mixin>
+
+
+            <a-mixin id="holoprojector" lass="center-zone" color="#ff6a00" position="0 0.3 0" rotation="180 0 0"
+                height="0.05"
+                geometry="primitive: cone; segmentsRadial: 3; openEnded: true; radiusBottom: 0.5; segmentsHeight: 1"
+                material="emissive: #ff6a00; wireframe: true"
+                animation="property: rotation; to: 180 360 0; loop: true; easing: linear; dur: 10000"></a-mixin>
+
+
+            <a-mixin id="hand" physics-collider static-body="shape: box" collision-filter="collisionForces: false;"
+                super-hands="colliderEvent: collisions;
+                              colliderEventProperty: els;
+                              colliderEndEvent: collisions;
+                              colliderEndEventProperty: clearedEls;
+                              grabStartButtons: trackpaddown, triggerdown, gripclose, gripdown, thumbstickdown, mousedown; 
+                              grabEndButtons: trackpadup, triggerup, gripopen, gripup, thumbstickup, mouseup"
+                teleport-controls="cameraRig: #rig; teleportOrigin: #camera;  startEvents: teleportstart; endEvents: teleportend; hitCylinderColor: #e9974c; interval: 10; curveHitColor: #e9974c; curveNumberPoints: 48; curveShootingSpeed: 12"
+                buttons></a-mixin>
+            <a-mixin id="table-label" position="0 0 -1" rotation="0 0 0" visible="false"
+                text="width: 2; color: black; lineHeight: 60; wrap-count: 35"></a-mixin>
+            <a-mixin id="burial-label" position="0 0 -1" text="width: 2; color: black; lineHeight: 60; wrap-count: 35">
+            </a-mixin>
+            <a-mixin id="table-caption" text="align: right; color: black; lineHeight: 55; wrap-count: 50"></a-mixin>
+            <a-mixin id="scale-box" visible="false"></a-mixin>
+            <a-mixin id="scale-label-border" geometry="primitive: plane; height: 1.05; width: 1.05; buffer: false"
+                material="color: #375719; shader: flat;"></a-mixin>
+            <a-mixin id="scale-label" geometry="primitive: plane; height: 1; width: 1; buffer: false"
+                material="color: #f5f5f5; shader: flat;"></a-mixin>
+            <a-mixin id="scale-text" text="color: black; width: 2; wrapCount: 45"></a-mixin>
+            <a-mixin id="credit-text" text="anchor: align; color: black; width: 2; wrapCount: 70; lineHeight: 55">
+            </a-mixin>
+        </a-assets>
+        <a-sky src="#sky"></a-sky>
+        <!--  
+        <a-entity position="0 -1 -5" rotation="0 0 -0.45" gltf-model="#ring" id="nav" nav-mesh
+            visible="false"></a-entity>  collisionEntities: #nav;  Nav Mesh -->
+        <a-entity id="floor" position="0 -1 -5" rotation="0 0 0" gltf-model="#ring"></a-entity> <!-- Building -->
+
+
+        <a-entity id="rig" rotation-reader thumbstick-logging
+            movement-controls="speed: 0.1; constrainToNavMesh: true;fly: true" position="0 0.01 1">
+            <!-- Player Character -->
+            <a-box id="body" plane-hit aabb-collider="collideNonVisible: true; objects: .zone" static-body="shape: box"
+                position="0 0.05 0" width="0.25" height="0.25" depth="0.25" visible="false"></a-box>
+
+            <a-entity id="camera" camera look-controls capture-mouse cursor="rayOrigin:mouse" camera="zoom: 1"
+                raycaster="far: 5; objects: .clickable" super-hands="colliderEvent: raycaster-intersection;
+                             colliderEventProperty: els;
+                             colliderEndEvent:raycaster-intersection-cleared;
+                             colliderEndEventProperty: clearedEls;" position="0 1.6 0"></a-entity>
+
+            <a-entity mixin="hand" hand-controls="hand: left; handModelStyle: highPoly; color: #ffcccc"></a-entity>
+            <a-entity mixin="hand" hand-controls="hand: right; handModelStyle: highPoly; color: #ffcccc"></a-entity>
+
+            <a-entity oculus-touch-controls="hand: left" vive-controls="hand: left" thumb-controls="hand: left">
+            </a-entity>
+            <a-entity oculus-touch-controls="hand: right" vive-controls="hand: right" thumb-controls="hand: right">
+            </a-entity>
+
+        </a-entity>
+
+        <!-- LIGHT -->
+
+
+
+        <!-- Title -->
+        <a-entity id="info-wall" visible="true" static-body position="0 0 -20" rotation="0 0 0" width="40"
+            height="4.5">
+
+
+
+            <a-text position="0 0 0" value="XR Collaboration 2021" color="white" width="40" text="align:center"></a-text>
+        
+
+            <a-text id="GL-VR" visible="false" position="2.55 -0.1 0.01" value="" color="white" width="4"
+                line-height="50" text="wrapCount: 30"></a-text>
+            <a-text id="GL-PC" visible="false" position="2.55 -0.1 0.1" value="" color="black" width="5"
+                line-height="50" text="wrapCount: 30"></a-text>
+            <a-text id="GL-SP" visible="false" position="2.55 -0.1 0.1" value="" color="black" width="5"
+                line-height="50" text="wrapCount: 30"></a-text>
+
+
+            <a-text id="SMH-VR" visible="false" position="-6.65 -0.57 0.01" value="" color="black" width="5"
+                line-height="60" text="wrapCount: 30"></a-text>
+            <a-text id="SMH-PC" visible="false" position="-6.65 -0.75 0.01" value="" color="black" width="5"
+                line-height="40" text="wrapCount: 30"></a-text>
+            <a-text id="SMH-SP" visible="false" position="-6.65 -0.6 0.01" value="" color="black" width="5"
+                line-height="50" text="wrapCount: 25"></a-text>
+
+        </a-entity>
+
+
+<a-light type="directional" color="#140029" intensity="3" position="-13 10 1"></a-light>
+        <a-light type="directional" color="#140029" intensity="2" position="15 -4.5 10"></a-light>
+
+
+
+
+
+        <a-light type="directional" color="#0f0033" intensity="2" position="0 -4.5 4"></a-light>
+        <a-light type="directional" color="#0f0033" intensity="2" position="0 -4.5 10"></a-light>
+
+        <!---->
+        <a-light type="directional" color="#140029" intensity="2" position="0 4.5 4"></a-light>
+        <a-light type="directional" color="#140029" intensity="2" position="0 4.5 10"></a-light>
+
+        <a-light id="light-left" color="#2af0fe" intensity="1" position="-10 3 -5" rotation="0 0 0"></a-light>
+        <a-light id="light-back" type="point" color="#140029" intensity="2" position="0 3 -15" rotation="0 0 0"></a-light>
+        <a-light id="light-right" type="point" color="#140029" intensity="2" position="15 4.5 -6" rotation="0 0 0">
+        </a-light>
+        <a-light id="light-front" type="point" color="white" intensity="0.5" position="0 3 5" rotation="0 0 0"></a-light>
+
+
+
+
+
+
+
+
+
+
+        
+    </a-scene>
+</body>
+<script>
+
+jQuery( "#menu" ).click(function() {
+  
+  jQuery(".sidedrawer").animate({
+  left: 0,
+  opacity: 1
+}, 500 );
+  jQuery("body").animate({
+  marginLeft: 250,
+}, 500 );
+  jQuery("#menuclose").show();
+  jQuery(this).hide();
+});
+
+jQuery( "#menuclose" ).click(function() {
+    jQuery(".appswitchdropdown").hide();
+  jQuery(".sidedrawer").animate({
+  left: -250,
+  opacity: 1
+}, 300 );
+  jQuery("body").animate({
+  marginLeft: 0,
+}, 300 );
+  jQuery("#menu").show();
+    jQuery(this).hide();
+});
+
+jQuery( ".appswitch" ).click(function() {
+	jQuery(".appswitchdropdown").toggle();
+});
+jQuery(".page").hover(function(){
+  jQuery(".appswitchdropdown").hide();
+});
+jQuery(".appconversation").click(function(){
+    jQuery("#nav, .page, .sidedrawer,.appswitchdropdown").hide();  
+  jQuery(".convo").show();
+    jQuery("body").css({
+  marginLeft: 0,
+}, 500 );
+});
+
+jQuery(".convo").click(function(){
+    jQuery("#nav, .page, .sidedrawer,.appswitchdropdown").show();  
+  jQuery(".convo, .trendscontent ").hide();
+    jQuery("body").css({
+  marginLeft: 250,
+}, 500 );
+});
+
+jQuery(".appstudio").click(function(){
+    jQuery(".spark, .sparkcontent, .sparklist").hide();  
+  jQuery(".studio, .studiolist").show();
+ jQuery('#logo').css('background-position', '0px 0px');
+ jQuery('.appswitch').css('background-position', '0px 0px');
+});
+
+
+
+jQuery(".collapse").click(function(){
+	jQuery(".collapse").hide();
+  jQuery(".expand").show();
+   jQuery('.sidedrawer').css('width', '60px');
+      jQuery(".sparklist div, .appswitch").css({
+  width: 50,
+}, 500 );
+  
+    jQuery("body").animate({
+  marginLeft: 60,
+}, 500 );
+  
+  
+});
+
+  jQuery( function() {
+    jQuery( "#accordion" ).accordion({autoHeight: true});
+  } );
+ 
+</script>
+
+</html>
